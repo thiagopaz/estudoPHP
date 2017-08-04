@@ -1,25 +1,25 @@
 <?php
 
-trait MinhaTrait {
+trait MyTrait {
     public function showName()
     {
         print __METHOD__;
     }
 }
 
-trait MinhaSegundaTrait{
+trait MySecondTrait{
      public function showName1()
      {
          print __CLASS__ ;
      }
 }
 
-class Usuario
+class User
 {
-    use MinhaTrait ;
-    use MinhaSegundaTrait;
+    use MyTrait ;
+    use MySecondTrait;
 }
 
-$usuario = new Usuario();
-$usuario->showName();
-$usuario->showName1();
+$user = new User();
+$user->showName();
+$user->showName1();
