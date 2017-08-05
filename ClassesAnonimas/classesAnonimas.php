@@ -16,6 +16,20 @@ $anonymousClass = new class{
     }
 };
 
-$anonymousClass->setName('Thiago Paz');
+class Car {
+    private $anonymous;
+    
+    public function __construct($anony){
+        $this->anonymous = $anony ;
+    }
 
-print $anonymousClass->getName();
+    public function getAnonymoys(){
+        return $this->anonymous;
+    }
+}
+
+$car = new Car($anonymousClass);
+
+$car->getAnonymoys()->setName('Fusca');
+
+print $car->getAnonymoys()->getName();
