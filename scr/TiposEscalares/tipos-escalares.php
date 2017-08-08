@@ -1,5 +1,5 @@
 <?php 
-
+declare(strict_types=1); // vai fazer com que nao funcione no php7. Leva ao pé da letra.
 function somar(int $a , int $b)
 {
     return $a + $b ;
