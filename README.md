@@ -1,4 +1,6 @@
-# phpOO
+# Estudo PHP .
 
-Estudo de PHP e novidades PHP7
+- Trait
+- Date
+- TDD
 
