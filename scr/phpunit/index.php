@@ -1,9 +1,9 @@
 <?php
     
-    require "AvaliadorTest.php";
+    /*require "AvaliadorTest.php";
 
     $test = new AvaliadorTest();
     $test->testLeilao();
-
+*/
 
 ?>
