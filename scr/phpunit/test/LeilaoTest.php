@@ -60,7 +60,6 @@ class LeilaoTest extends \PHPUnit_Framework_TestCase
 
 
         $this->assertEquals(10, count($leilao->getLances()));
-      //  $this->assertEquals(11000, count($leilao->getLances()[9]->getValor()));
     }
 }
 ?>
